@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DrLink</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="image_title">
+        <item>LTX 4   ID 12-121212</item>
+        <item>MDT 2.6 ID 23-232323</item>
+        <item>MDT 4   ID 12-234234</item>
+    </string-array>
+    <integer-array name="event_image_id">
+    <item>@drawable/p8</item>
+    <item>@drawable/p8</item>
+        <item>@drawable/p8</item>
+
+</integer-array>
+</resources>

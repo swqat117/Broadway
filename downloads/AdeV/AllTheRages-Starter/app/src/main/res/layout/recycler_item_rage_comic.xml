@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/recycler_layout_spacing">
+
+<TextView
+    android:id="@+id/name"
+    style="@style/TextAppearance.AppCompat.Subhead.Inverse"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_gravity="left|bottom"
+    android:background="@color/blue_grey_800_50p"
+    android:minHeight="@dimen/recycler_item_footer_height_min"
+
+    tools:text="LOL Guy"/>
+
+<ImageView
+android:id="@+id/comic_image"
+android:layout_width="match_parent"
+android:layout_height="477dp"
+android:adjustViewBounds="true"
+android:contentDescription="@null"
+android:scaleType="centerCrop"
+tools:src="@drawable/lol_guy"
+android:layout_gravity="center" />
+
+    </FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.quascenta.petersroad.droidlink.RealTimeLineChartActivity">
+<com.github.mikephil.charting.charts.LineChart
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chart1"></com.github.mikephil.charting.charts.LineChart>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/fab2" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab3"
+        android:layout_alignTop="@+id/fab2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp" />
+</RelativeLayout>
